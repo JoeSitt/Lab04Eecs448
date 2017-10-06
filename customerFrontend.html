@@ -1,0 +1,44 @@
+<html>
+    <head>
+      <title>This is a store. buy stuffs.</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+
+    <form action="customerBackend.php" method="post" onsubmit="return Check()">
+        Name: <input type="text" name="name" id="name"><br>
+        Password: <input type="text" name="Password" id="pass"><br>
+        Email: <input type="text" name="Email" id="email"><br>
+        <div>
+          Totally working real nice Car<br>
+           $1<br>
+           Quantity <input type="number" name="i1" id="i1"><br>
+
+
+          A penny<br>
+           $0.02<br>
+           Quantity<input type="number" name="i2" id="i2"><br>
+
+
+          A taco<br>
+           $70<br>
+           Quantity<input type="number" name="i3" id="i3"><br>
+        </div>
+        <div>
+        Shipping?<br>
+        <input name="sh" value="7"  type="radio"> Free 7day shipping
+        <br>
+        <input name="sh" value="1"  type="radio"> $50 overnight
+        <br>
+        <input name="sh" value="3" checked=""  type="radio"> $5 Three day
+
+      </div>
+      <div>
+
+        <input type="submit" >
+        <input type="reset">
+
+    </form>
+    <script src="formChecker.js"></script>
+</body>
+</html>
